@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D3444DDA1D57E108003CD188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3444DD91D57E108003CD188 /* AppDelegate.swift */; };
-		D3444DDC1D57E108003CD188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3444DDB1D57E108003CD188 /* ViewController.swift */; };
-		D3444DDF1D57E108003CD188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3444DDD1D57E108003CD188 /* Main.storyboard */; };
 		D3444DE11D57E108003CD188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3444DE01D57E108003CD188 /* Assets.xcassets */; };
 		D3444DE41D57E108003CD188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +15,6 @@
 /* Begin PBXFileReference section */
 		D3444DD61D57E108003CD188 /* Dropshippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropshippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3444DD91D57E108003CD188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3444DDB1D57E108003CD188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3444DDE1D57E108003CD188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3444DE01D57E108003CD188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3444DE31D57E108003CD188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3444DE51D57E108003CD188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +31,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3056EA31D593BC900593A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D3056EA41D593BD800593A1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3056EA51D593BE200593A1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D3056EA61D593BEF00593A1D /* Librairy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Librairy;
+			sourceTree = "<group>";
+		};
+		D3056EA71D593BFA00593A1D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		D3444DCD1D57E108003CD188 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +85,12 @@
 		D3444DD81D57E108003CD188 /* Dropshippers */ = {
 			isa = PBXGroup;
 			children = (
+				D3056EA71D593BFA00593A1D /* Helper */,
+				D3056EA61D593BEF00593A1D /* Librairy */,
+				D3056EA51D593BE200593A1D /* Controller */,
+				D3056EA41D593BD800593A1D /* View */,
+				D3056EA31D593BC900593A1D /* Model */,
 				D3444DD91D57E108003CD188 /* AppDelegate.swift */,
-				D3444DDB1D57E108003CD188 /* ViewController.swift */,
-				D3444DDD1D57E108003CD188 /* Main.storyboard */,
 				D3444DE01D57E108003CD188 /* Assets.xcassets */,
 				D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */,
 				D3444DE51D57E108003CD188 /* Info.plist */,
@@ -124,7 +158,6 @@
 			files = (
 				D3444DE41D57E108003CD188 /* LaunchScreen.storyboard in Resources */,
 				D3444DE11D57E108003CD188 /* Assets.xcassets in Resources */,
-				D3444DDF1D57E108003CD188 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +168,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3444DDC1D57E108003CD188 /* ViewController.swift in Sources */,
 				D3444DDA1D57E108003CD188 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3444DDD1D57E108003CD188 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3444DDE1D57E108003CD188 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,10 +275,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dropshippers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = darknight.Dropshippers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +289,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dropshippers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = darknight.Dropshippers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +318,7 @@
 				D3444DEA1D57E108003CD188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
