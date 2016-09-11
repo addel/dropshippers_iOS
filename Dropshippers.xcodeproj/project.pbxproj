@@ -7,21 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C9889FA86398131899123C7 /* Pods_Dropshippers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FE331D0589060100211739 /* Pods_Dropshippers.framework */; };
+		D315263D1D6CE999004A5CAE /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D315263C1D6CE999004A5CAE /* RestApiManager.swift */; };
+		D31B80081D79B65400FD89FF /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B80071D79B65400FD89FF /* ContainerViewController.swift */; };
+		D31B800A1D79B72900FD89FF /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B80091D79B72900FD89FF /* SideMenuViewController.swift */; };
+		D31B800C1D79B75100FD89FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B800B1D79B75100FD89FF /* MainViewController.swift */; };
+		D31B800E1D7A294C00FD89FF /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31B800D1D7A294C00FD89FF /* SideMenu.storyboard */; };
+		D31B80101D7A48E000FD89FF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B800F1D7A48E000FD89FF /* User.swift */; };
+		D33E7F071D6222BA0028A74F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E7F061D6222BA0028A74F /* LoginViewController.swift */; };
 		D3444DDA1D57E108003CD188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3444DD91D57E108003CD188 /* AppDelegate.swift */; };
 		D3444DE11D57E108003CD188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3444DE01D57E108003CD188 /* Assets.xcassets */; };
 		D3444DE41D57E108003CD188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */; };
+		D34B95F11D7D034C0078378E /* DropshippersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B95F01D7D034C0078378E /* DropshippersUITests.swift */; };
+		D34B95FF1D7D04A60078378E /* DropshippersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B95FE1D7D04A60078378E /* DropshippersTests.swift */; };
+		D3AA00F81D7F7B7800FB4CA5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA00F71D7F7B7800FB4CA5 /* UIView.swift */; };
+		D3AA00FC1D7F878C00FB4CA5 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AA00FB1D7F878C00FB4CA5 /* UITextField.swift */; };
+		D3B4A6E81D5B8EF700B69F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B4A6E71D5B8EF700B69F1C /* Main.storyboard */; };
+		D3B4A6EA1D5D617C00B69F1C /* HomeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4A6E91D5D617C00B69F1C /* HomeLoginViewController.swift */; };
+		D3C28BB31D747F6500E93B17 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C28BB21D747F6500E93B17 /* SwiftyJSON.framework */; };
+		D3C28BB51D74A0F800E93B17 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C28BB41D74A0F800E93B17 /* RegisterViewController.swift */; };
+		D3C28BB71D76106A00E93B17 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C28BB61D76106A00E93B17 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D34B95F31D7D034C0078378E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3444DCE1D57E108003CD188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3444DD51D57E108003CD188;
+			remoteInfo = Dropshippers;
+		};
+		D34B96011D7D04A60078378E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3444DCE1D57E108003CD188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3444DD51D57E108003CD188;
+			remoteInfo = Dropshippers;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2DA9714FD70DF5ED2CA644FD /* Pods-Dropshippers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dropshippers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dropshippers/Pods-Dropshippers.release.xcconfig"; sourceTree = "<group>"; };
+		B1FE331D0589060100211739 /* Pods_Dropshippers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dropshippers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2FF42E2DAC8E402932CF7E /* Pods-Dropshippers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dropshippers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dropshippers/Pods-Dropshippers.debug.xcconfig"; sourceTree = "<group>"; };
+		D315263C1D6CE999004A5CAE /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		D31B80071D79B65400FD89FF /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ContainerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D31B80091D79B72900FD89FF /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		D31B800B1D79B75100FD89FF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D31B800D1D7A294C00FD89FF /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		D31B800F1D7A48E000FD89FF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D33E7F061D6222BA0028A74F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D3444DD61D57E108003CD188 /* Dropshippers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropshippers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3444DD91D57E108003CD188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3444DE01D57E108003CD188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3444DE31D57E108003CD188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3444DE51D57E108003CD188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34B95EE1D7D034C0078378E /* DropshippersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropshippersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34B95F01D7D034C0078378E /* DropshippersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropshippersUITests.swift; sourceTree = "<group>"; };
+		D34B95F21D7D034C0078378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34B95FC1D7D04A50078378E /* DropshippersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropshippersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34B95FE1D7D04A60078378E /* DropshippersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropshippersTests.swift; sourceTree = "<group>"; };
+		D34B96001D7D04A60078378E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AA00F71D7F7B7800FB4CA5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D3AA00FB1D7F878C00FB4CA5 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		D3B4A6E71D5B8EF700B69F1C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D3B4A6E91D5D617C00B69F1C /* HomeLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLoginViewController.swift; sourceTree = "<group>"; };
+		D3C28BB21D747F6500E93B17 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../Users/SKYNET/Library/Developer/Xcode/DerivedData/Dropshippers-hfyeksxftmmfltfkffluhkyznbxi/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		D3C28BB41D74A0F800E93B17 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D3C28BB61D76106A00E93B17 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D3444DD31D57E108003CD188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C28BB31D747F6500E93B17 /* SwiftyJSON.framework in Frameworks */,
+				5C9889FA86398131899123C7 /* Pods_Dropshippers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34B95EB1D7D034C0078378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34B95F91D7D04A50078378E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,46 +104,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3056EA31D593BC900593A1D /* Model */ = {
+		36D708CBF937549C4E4F59F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3C28BB21D747F6500E93B17 /* SwiftyJSON.framework */,
+				B1FE331D0589060100211739 /* Pods_Dropshippers.framework */,
 			);
-			name = Model;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3056EA41D593BD800593A1D /* View */ = {
+		D3056EA31D593BC900593A1D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D31B800F1D7A48E000FD89FF /* User.swift */,
 			);
-			name = View;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		D3056EA51D593BE200593A1D /* Controller */ = {
+		D3056EA41D593BD800593A1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D3AA00F61D7F7B4E00FB4CA5 /* IBDesignable */,
+				D3AA00F51D7F7B0800FB4CA5 /* IBInspectable */,
+				D3B4A6E71D5B8EF700B69F1C /* Main.storyboard */,
+				D31B800D1D7A294C00FD89FF /* SideMenu.storyboard */,
+				D3C28BB61D76106A00E93B17 /* Login.storyboard */,
 			);
-			name = Controller;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		D3056EA61D593BEF00593A1D /* Librairy */ = {
+		D3056EA51D593BE200593A1D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D31B80061D79B64000FD89FF /* MySideMenu */,
+				D31B80051D79B62400FD89FF /* Login */,
+				D31B800B1D79B75100FD89FF /* MainViewController.swift */,
 			);
-			name = Librairy;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		D3056EA71D593BFA00593A1D /* Helper */ = {
+		D3056EA61D593BEF00593A1D /* Librairies */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Helper;
+			name = Librairies;
+			sourceTree = "<group>";
+		};
+		D3056EA71D593BFA00593A1D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D31B80051D79B62400FD89FF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3B4A6E91D5D617C00B69F1C /* HomeLoginViewController.swift */,
+				D33E7F061D6222BA0028A74F /* LoginViewController.swift */,
+				D3C28BB41D74A0F800E93B17 /* RegisterViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D31B80061D79B64000FD89FF /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D31B80071D79B65400FD89FF /* ContainerViewController.swift */,
+				D31B80091D79B72900FD89FF /* SideMenuViewController.swift */,
+			);
+			name = MySideMenu;
 			sourceTree = "<group>";
 		};
 		D3444DCD1D57E108003CD188 = {
 			isa = PBXGroup;
 			children = (
 				D3444DD81D57E108003CD188 /* Dropshippers */,
+				D34B95EF1D7D034C0078378E /* DropshippersUITests */,
+				D34B95FD1D7D04A60078378E /* DropshippersTests */,
 				D3444DD71D57E108003CD188 /* Products */,
+				E2D63379A30AEFDA75604DB0 /* Pods */,
+				36D708CBF937549C4E4F59F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				D3444DD61D57E108003CD188 /* Dropshippers.app */,
+				D34B95EE1D7D034C0078378E /* DropshippersUITests.xctest */,
+				D34B95FC1D7D04A50078378E /* DropshippersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,17 +201,69 @@
 		D3444DD81D57E108003CD188 /* Dropshippers */ = {
 			isa = PBXGroup;
 			children = (
-				D3056EA71D593BFA00593A1D /* Helper */,
-				D3056EA61D593BEF00593A1D /* Librairy */,
-				D3056EA51D593BE200593A1D /* Controller */,
-				D3056EA41D593BD800593A1D /* View */,
-				D3056EA31D593BC900593A1D /* Model */,
+				D3C28BB81D76274400E93B17 /* APIService */,
+				D3056EA71D593BFA00593A1D /* Helpers */,
+				D3056EA61D593BEF00593A1D /* Librairies */,
+				D3056EA51D593BE200593A1D /* Controllers */,
+				D3056EA41D593BD800593A1D /* Views */,
+				D3056EA31D593BC900593A1D /* Models */,
 				D3444DD91D57E108003CD188 /* AppDelegate.swift */,
 				D3444DE01D57E108003CD188 /* Assets.xcassets */,
 				D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */,
 				D3444DE51D57E108003CD188 /* Info.plist */,
 			);
 			path = Dropshippers;
+			sourceTree = "<group>";
+		};
+		D34B95EF1D7D034C0078378E /* DropshippersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D34B95F01D7D034C0078378E /* DropshippersUITests.swift */,
+				D34B95F21D7D034C0078378E /* Info.plist */,
+			);
+			path = DropshippersUITests;
+			sourceTree = "<group>";
+		};
+		D34B95FD1D7D04A60078378E /* DropshippersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D34B95FE1D7D04A60078378E /* DropshippersTests.swift */,
+				D34B96001D7D04A60078378E /* Info.plist */,
+			);
+			path = DropshippersTests;
+			sourceTree = "<group>";
+		};
+		D3AA00F51D7F7B0800FB4CA5 /* IBInspectable */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA00F71D7F7B7800FB4CA5 /* UIView.swift */,
+				D3AA00FB1D7F878C00FB4CA5 /* UITextField.swift */,
+			);
+			name = IBInspectable;
+			sourceTree = "<group>";
+		};
+		D3AA00F61D7F7B4E00FB4CA5 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IBDesignable;
+			sourceTree = "<group>";
+		};
+		D3C28BB81D76274400E93B17 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				D315263C1D6CE999004A5CAE /* RestApiManager.swift */,
+			);
+			name = APIService;
+			sourceTree = "<group>";
+		};
+		E2D63379A30AEFDA75604DB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB2FF42E2DAC8E402932CF7E /* Pods-Dropshippers.debug.xcconfig */,
+				2DA9714FD70DF5ED2CA644FD /* Pods-Dropshippers.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3444DE81D57E108003CD188 /* Build configuration list for PBXNativeTarget "Dropshippers" */;
 			buildPhases = (
+				38F228D621F29DB68B1601C6 /* [CP] Check Pods Manifest.lock */,
 				D3444DD21D57E108003CD188 /* Sources */,
 				D3444DD31D57E108003CD188 /* Frameworks */,
 				D3444DD41D57E108003CD188 /* Resources */,
+				5B0D5565FED2E9C9626BB96E /* [CP] Embed Pods Frameworks */,
+				115B58652BD0503B5C207696 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,6 +288,42 @@
 			productName = Dropshippers;
 			productReference = D3444DD61D57E108003CD188 /* Dropshippers.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D34B95ED1D7D034C0078378E /* DropshippersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34B95F51D7D034C0078378E /* Build configuration list for PBXNativeTarget "DropshippersUITests" */;
+			buildPhases = (
+				D34B95EA1D7D034C0078378E /* Sources */,
+				D34B95EB1D7D034C0078378E /* Frameworks */,
+				D34B95EC1D7D034C0078378E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34B95F41D7D034C0078378E /* PBXTargetDependency */,
+			);
+			name = DropshippersUITests;
+			productName = DropshippersUITests;
+			productReference = D34B95EE1D7D034C0078378E /* DropshippersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D34B95FB1D7D04A50078378E /* DropshippersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34B96031D7D04A60078378E /* Build configuration list for PBXNativeTarget "DropshippersTests" */;
+			buildPhases = (
+				D34B95F81D7D04A50078378E /* Sources */,
+				D34B95F91D7D04A50078378E /* Frameworks */,
+				D34B95FA1D7D04A50078378E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34B96021D7D04A60078378E /* PBXTargetDependency */,
+			);
+			name = DropshippersTests;
+			productName = DropshippersTests;
+			productReference = D34B95FC1D7D04A50078378E /* DropshippersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -130,6 +337,15 @@
 				TargetAttributes = {
 					D3444DD51D57E108003CD188 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LEM9MFXG76;
+					};
+					D34B95ED1D7D034C0078378E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3444DD51D57E108003CD188;
+					};
+					D34B95FB1D7D04A50078378E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D3444DD51D57E108003CD188;
 					};
 				};
 			};
@@ -147,6 +363,8 @@
 			projectRoot = "";
 			targets = (
 				D3444DD51D57E108003CD188 /* Dropshippers */,
+				D34B95ED1D7D034C0078378E /* DropshippersUITests */,
+				D34B95FB1D7D04A50078378E /* DropshippersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -156,23 +374,127 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B4A6E81D5B8EF700B69F1C /* Main.storyboard in Resources */,
+				D31B800E1D7A294C00FD89FF /* SideMenu.storyboard in Resources */,
 				D3444DE41D57E108003CD188 /* LaunchScreen.storyboard in Resources */,
+				D3C28BB71D76106A00E93B17 /* Login.storyboard in Resources */,
 				D3444DE11D57E108003CD188 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D34B95EC1D7D034C0078378E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34B95FA1D7D04A50078378E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115B58652BD0503B5C207696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dropshippers/Pods-Dropshippers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F228D621F29DB68B1601C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0D5565FED2E9C9626BB96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dropshippers/Pods-Dropshippers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3444DD21D57E108003CD188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33E7F071D6222BA0028A74F /* LoginViewController.swift in Sources */,
+				D3B4A6EA1D5D617C00B69F1C /* HomeLoginViewController.swift in Sources */,
+				D315263D1D6CE999004A5CAE /* RestApiManager.swift in Sources */,
+				D3AA00FC1D7F878C00FB4CA5 /* UITextField.swift in Sources */,
 				D3444DDA1D57E108003CD188 /* AppDelegate.swift in Sources */,
+				D31B800A1D79B72900FD89FF /* SideMenuViewController.swift in Sources */,
+				D31B80101D7A48E000FD89FF /* User.swift in Sources */,
+				D3AA00F81D7F7B7800FB4CA5 /* UIView.swift in Sources */,
+				D31B80081D79B65400FD89FF /* ContainerViewController.swift in Sources */,
+				D3C28BB51D74A0F800E93B17 /* RegisterViewController.swift in Sources */,
+				D31B800C1D79B75100FD89FF /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34B95EA1D7D034C0078378E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34B95F11D7D034C0078378E /* DropshippersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34B95F81D7D04A50078378E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34B95FF1D7D04A60078378E /* DropshippersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D34B95F41D7D034C0078378E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3444DD51D57E108003CD188 /* Dropshippers */;
+			targetProxy = D34B95F31D7D034C0078378E /* PBXContainerItemProxy */;
+		};
+		D34B96021D7D04A60078378E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3444DD51D57E108003CD188 /* Dropshippers */;
+			targetProxy = D34B96011D7D04A60078378E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3444DE21D57E108003CD188 /* LaunchScreen.storyboard */ = {
@@ -273,11 +595,13 @@
 		};
 		D3444DE91D57E108003CD188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2FF42E2DAC8E402932CF7E /* Pods-Dropshippers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dropshippers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = darknight.Dropshippers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,15 +611,63 @@
 		};
 		D3444DEA1D57E108003CD188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA9714FD70DF5ED2CA644FD /* Pods-Dropshippers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Dropshippers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = darknight.Dropshippers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D34B95F61D7D034C0078378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropshippersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = darknight.DropshippersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dropshippers;
+			};
+			name = Debug;
+		};
+		D34B95F71D7D034C0078378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropshippersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = darknight.DropshippersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dropshippers;
+			};
+			name = Release;
+		};
+		D34B96041D7D04A60078378E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropshippersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = darknight.DropshippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropshippers.app/Dropshippers";
+			};
+			name = Debug;
+		};
+		D34B96051D7D04A60078378E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropshippersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = darknight.DropshippersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropshippers.app/Dropshippers";
 			};
 			name = Release;
 		};
@@ -316,6 +688,24 @@
 			buildConfigurations = (
 				D3444DE91D57E108003CD188 /* Debug */,
 				D3444DEA1D57E108003CD188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34B95F51D7D034C0078378E /* Build configuration list for PBXNativeTarget "DropshippersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34B95F61D7D034C0078378E /* Debug */,
+				D34B95F71D7D034C0078378E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34B96031D7D04A60078378E /* Build configuration list for PBXNativeTarget "DropshippersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34B96041D7D04A60078378E /* Debug */,
+				D34B96051D7D04A60078378E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TfN-rM-Peh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Dropshippers-->
+        <scene sceneID="qUT-CQ-kZL">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="TfN-rM-Peh" customClass="MainViewController" customModule="Dropshippers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OAl-Gm-y8a"/>
+                        <viewControllerLayoutGuide type="bottom" id="7aW-Ln-ZFG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7zg-mQ-TDx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dropshippers" id="0Fr-tJ-cZG">
+                        <barButtonItem key="leftBarButtonItem" style="done" id="Iub-W4-g2E">
+                            <connections>
+                                <action selector="leftMenuAction:" destination="TfN-rM-Peh" id="AL9-ha-Bid"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="cgz-ar-vxQ">
+                            <connections>
+                                <action selector="rightMenuAction:" destination="TfN-rM-Peh" id="g2a-WG-enT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="lsq-nL-FsX" kind="presentation" identifier="loginSegue" modalTransitionStyle="flipHorizontal" id="d8c-jj-kog"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWw-0k-L5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1121" y="263"/>
+        </scene>
+        <!--homeLoginViewController-->
+        <scene sceneID="Ddw-tF-Aq4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="homeLoginViewController" storyboardName="Login" referencedIdentifier="homeLoginViewController" id="lsq-nL-FsX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHx-X4-NpP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1989" y="-338"/>
+        </scene>
+        <!--leftMenuViewController-->
+        <scene sceneID="tna-8f-pVg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="leftMenuViewController" storyboardName="SideMenu" referencedIdentifier="leftMenuViewController" id="Nto-Df-h2W" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mvj-cr-o9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="-205"/>
+        </scene>
+        <!--rightMenuViewController-->
+        <scene sceneID="TZf-Mf-qux">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="rightMenuViewController" storyboardName="SideMenu" referencedIdentifier="rightMenuViewController" id="3hw-SU-wME" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="csz-HE-Vd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="-872"/>
+        </scene>
+    </scenes>
+</document>
